@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
@@ -16,11 +16,8 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="GWebApi" Version="0.0.0.2-beta" />
-	  <PackageReference Include="RA.NodeControllerInterface" Version="0.0.0.2-alpha" />
+    <PackageReference Include="GWebApi" Version="0.0.0.2-beta"/>
+    <PackageReference Include="RA.NodeControllerInterface" Version="0.0.0.2-alpha"/>
   </ItemGroup>
-  <ItemGroup>
-    
-  </ItemGroup>
-  <Import Project="NCLog.references" />
+  <Import Project="NCLog.references"/>
 </Project>

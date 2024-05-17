@@ -19,3 +19,15 @@
 
     - GWebApi : web api client 
     - RA.NodeControllerInterface : 信息处理库
+
+## 项目介绍
+
+
+![alt text](docs/image-2.png)
+
+- NC_RemoteLog : Remote logging 画面
+- NC_WebLog : 通过web api 获取log 信息
+- MagneMotionRemoteloggingBehavior ： Remote log 的 Behavior ,需要实例化一个，对 remote log 进行处理
+- MagneMotionLogMessageType : Log Message 的数据结构
+  结构信息:
+  ![alt text](docs/image-1.png)
